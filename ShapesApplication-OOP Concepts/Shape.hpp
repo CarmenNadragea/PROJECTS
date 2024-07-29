@@ -12,13 +12,13 @@ public:
     Shape(const Shape &);
 
     virtual void DisplayInfo();
-    virtual double GetArea();      // calculeaza aria
-    virtual double GetPerimeter(); // calculeaza perimteru
+    virtual double GetArea();      
+    virtual double GetPerimeter(); 
     virtual ~Shape();
-    // virtual ~Shape();//virtual
+    
 private:
-    char *_name;    // numele
-    Point2D origin; // originea
+    char *_name;   
+    Point2D origin; 
 };
 
 #endif
