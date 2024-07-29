@@ -1,3 +1,8 @@
+/*This project involves designing a medical database system with features including table creation for doctors, patients, and assistants, 
+data validation with constraints and default values, and advanced SQL operations such as creating views, handling transactions, 
+and using cursors. It also includes implementing triggers to display messages upon new doctor entries, ensuring data integrity and providing 
+insightful data management solutions.*/
+
 --creating the tables that we need
 create table spital.tDepartament
 (
